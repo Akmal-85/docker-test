@@ -11,6 +11,7 @@ public class HomeController {
     }
     @GetMapping("/salom")
     public String alom(){
+
         return "Doniyor";
     }
 }
