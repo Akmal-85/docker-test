@@ -9,4 +9,8 @@ public class HomeController {
     public String salom(){
         return "salom";
     }
+    @GetMapping("/salom")
+    public String alom(){
+        return "Doniyor";
+    }
 }
